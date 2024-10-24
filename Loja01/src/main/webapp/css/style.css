@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+
+.container{
+	background-color : yellow; 
+	width: 70%;
+	margin: 0 auto;
+}
+.cabecalho{
+	background-color: 	#A020F0;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	padding: 5% 0;
+	justify-content: space-between;
+}
+.menu a{
+	text-decoration: none;
+	color: #fff;
+}
+.Erro{
+	background-color: #cd211d;
+	color: #ff0000;
+	border: 2px solid #ff8080;
+	font: 2rem;
+}
+table{
+	border-collapse: collapse;
+	border: 2px solid #000000;
+	margin: 0 auto;
+	width: 80%;
+	font-family: Arial, Verdana, sans-serif;
+}
+thead th{
+	border: 2px solid #000000;
+	padding: 10px;
+	text-align: center;
+}
+tbody td{
+	border: 2px solid #000000;
+	padding: 10px;
+	text-align: center;
+}
+tfoot td{
+	border: 2px solid #000000;
+	padding: 10px;
+	text-align: center;
+}
+tbody tr:hover{
+	background-color: #c1c1c1;
+}
+
+
+

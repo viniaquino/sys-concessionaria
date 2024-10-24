@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>Loja01</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>LojaController</display-name>
+    <servlet-name>LojaController</servlet-name>
+    <servlet-class>br.com.concessionaria.controller.LojaController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LojaController</servlet-name>
+    <url-pattern>/loja</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TrafegoController</display-name>
+    <servlet-name>TrafegoController</servlet-name>
+    <servlet-class>br.com.concessionaria.controller.TrafegoController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TrafegoController</servlet-name>
+    <url-pattern>/dados</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TrafegoController</servlet-name>
+    <url-pattern>/trafego</url-pattern>
+  </servlet-mapping>
+</web-app>
